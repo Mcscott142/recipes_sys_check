@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
 <title>Recipes Home</title>
-<!--<link rel="stylesheet" href="/home.css>" -->
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 
 <body>
+<h1>Recipes Home Page</h1>
 
+
+<div>
 <ol>
 
 <% @recipes.each do |recipe| %>
@@ -14,7 +18,7 @@
 <% end %>
 
 </ol>
-
+</div>
 </body>
 
 </html>
